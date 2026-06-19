@@ -32,3 +32,4 @@ class Consultation(models.Model):
     ai_summary = models.TextField(max_length=1000, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
